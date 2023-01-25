@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #a35200;
+  margin-bottom: 1rem;
+}
+.para-text {
+  color: #334155;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.coin-image {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.result-container p {
+  color: #475569;
+  font-weight: 500;
+}
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+  .card {
+    padding: 4rem;
+  }
+  .coin-image {
+    margin-bottom: 2rem;
+    width: 200px;
+  }
+  .result-container {
+    flex-direction: row;
+  }
+}
